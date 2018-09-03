@@ -4,5 +4,5 @@ from .views import welcome
 
 
 urlpatterns = [
-    path('', welcome)
+    path('', welcome, name="welcome")
 ]

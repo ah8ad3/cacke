@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="877147e9-b2aa-4dcd-b495-7f28fe431c11" name="Default Changelist" comment="" />
+    <list default="true" id="877147e9-b2aa-4dcd-b495-7f28fe431c11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/apps/common/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/common/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/common/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/common/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
           <entry key="html" value="1" />
           <entry key="md" value="2" />
           <entry key="po" value="1" />
-          <entry key="py" value="16" />
+          <entry key="py" value="18" />
           <entry key="txt" value="3" />
           <entry key="yml" value="1" />
         </counts>
@@ -40,7 +43,7 @@
           <entry key="Locale" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="16" />
+          <entry key="Python" value="18" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -50,8 +53,8 @@
           <entry key="html" value="65" />
           <entry key="md" value="39" />
           <entry key="po" value="21" />
-          <entry key="py" value="658" />
-          <entry key="yml" value="112" />
+          <entry key="py" value="843" />
+          <entry key="yml" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -60,8 +63,8 @@
           <entry key="Locale" value="21" />
           <entry key="Markdown" value="39" />
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="658" />
-          <entry key="YAML" value="112" />
+          <entry key="Python" value="843" />
+          <entry key="YAML" value="115" />
         </counts>
       </usages-collector>
     </session>
@@ -80,26 +83,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/common/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/common/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1535911120230" expanded="true" signature="90:95" ph="..." />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/common/urls.py">
+        <entry file="file://$PROJECT_DIR$/apps/common/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
+                <marker date="1535965538077" expanded="true" signature="90:95" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -203,11 +206,12 @@
         <option value="$PROJECT_DIR$/apps/common/views.py" />
         <option value="$PROJECT_DIR$/assets/templates/index.html" />
         <option value="$PROJECT_DIR$/locale/fa/LC_MESSAGES/django.po" />
-        <option value="$PROJECT_DIR$/apps/common/urls.py" />
         <option value="$PROJECT_DIR$/cacke/urls.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/cacke/settings/settings.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/apps/common/tests.py" />
+        <option value="$PROJECT_DIR$/apps/common/urls.py" />
       </list>
     </option>
   </component>
@@ -241,13 +245,24 @@
             <path>
               <item name="cacke" type="b2602c69:ProjectViewProjectNode" />
               <item name="cacke" type="462c0819:PsiDirectoryNode" />
-              <item name="cacke" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cacke" type="b2602c69:ProjectViewProjectNode" />
               <item name="cacke" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cacke" type="b2602c69:ProjectViewProjectNode" />
               <item name="cacke" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cacke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cacke" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,7 +339,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -423,16 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/common/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/common/messages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -506,8 +510,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda3/envs/cacke/lib/python3.7/site-packages/django/urls/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/common/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <marker date="1535965538077" expanded="true" signature="90:95" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/common/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
