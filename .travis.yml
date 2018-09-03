@@ -7,12 +7,12 @@ sudo: false
 
 install:
     - pip install -r requirment.txt
+    - pip install coveralls
 
 script:
-    - coverage run ./manage.localy.py test
+    - coverage run --source=./ ./manage.localy.py test
 
 after_success:
-    - pip install coveralls
     - coveralls
 
 notifications:
