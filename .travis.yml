@@ -29,7 +29,7 @@ matrix:
       - env: DJANGO=2.1
 
 install:
-    - pip install -r requirments.txt
+    - pip install -r requirment.txt
 
 script:
     - coverage run ./manage.localy.py test
