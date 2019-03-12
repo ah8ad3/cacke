@@ -1,3 +1,6 @@
+amqp==2.4.2
+billiard==3.5.0.5
+celery==4.2.1
 certifi==2019.3.9
 chardet==3.0.4
 codecov==2.0.15
@@ -10,8 +13,11 @@ djangorestframework==3.8.2
 djangorestframework-jwt==1.11.0
 docopt==0.6.2
 idna==2.7
+kombu==4.4.0
 Markdown==2.6.11
 PyJWT==1.6.4
 pytz==2018.5
+redis==3.2.0
 requests==2.21.0
 urllib3==1.23
+vine==1.2.0

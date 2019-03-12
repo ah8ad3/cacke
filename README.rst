@@ -18,6 +18,7 @@ Cacke document
 * added jwt
 * added django rest framework
 * add localization for **fa** and **en**
+* support celery tasks
 
 TODO
 ----------------------

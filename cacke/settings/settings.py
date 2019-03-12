@@ -21,8 +21,6 @@ env.read_env(os.path.join(BASE_DIR, '.env'))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env('SECRET_KEY', default='test_key2')
 
-ALLOWED_HOSTS = []
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -35,7 +33,8 @@ INSTALLED_APPS = [
 
     'apps.common',
 
-    'rest_framework'
+    'rest_framework',
+    'celery'
 ]
 
 MIDDLEWARE = [

@@ -27,9 +27,6 @@ compile:
 run:
 	@python manage.localy.py runserver
 
-active:
-	@source activate cacke
-
 freeze:
 	@pip freeze > requirement.txt
 
@@ -38,3 +35,6 @@ migrate:
 
 test:
 	@python manage.localy.py test
+
+celery:
+	@celery -A cacke worker -l info

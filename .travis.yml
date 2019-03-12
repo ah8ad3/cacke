@@ -1,11 +1,15 @@
 language: python
 
-python:
-    - "3.5"
-    - "3.6"
 
-allow_failures:
-  - "3.4"
+matrix:
+  include:
+  - python: 3.5
+    dist: xenial
+  - python: 3.6
+    dist: xenial
+  allow_failures:
+  - python: 3.4
+    dist: xenial
 
 sudo: false
 
