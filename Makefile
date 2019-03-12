@@ -17,3 +17,24 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+messages:
+	@python manage.localy.py makemessages -l fa
+
+compile:
+	@python manage.localy.py compilemessages
+
+run:
+	@python manage.localy.py runserver
+
+active:
+	@source activate cacke
+
+freeze:
+	@pip freeze > requirement.txt
+
+migrate:
+	@python manage.localy.py migrate
+
+test:
+	@python manage.localy.py test
