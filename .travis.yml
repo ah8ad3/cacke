@@ -1,5 +1,7 @@
 language: python
 
+services:
+  - docker
 
 matrix:
   include:
@@ -22,3 +24,4 @@ script:
 
 after_success:
     - coveralls
+    - docker build -t ah8ad3/cacke:latest
