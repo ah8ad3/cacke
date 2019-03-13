@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-12 17:31+0330\n"
+"POT-Creation-Date: 2019-03-14 00:36+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,10 +29,10 @@ msgid ""
 "%(message)s\n"
 msgstr ""
 
-#: cacke/settings/settings.py:97
+#: cacke/settings/settings.py:96
 msgid "Persian"
 msgstr "پارسی"
 
-#: cacke/settings/settings.py:98
+#: cacke/settings/settings.py:97
 msgid "English"
 msgstr "انگلیسی"

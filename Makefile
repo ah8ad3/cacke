@@ -18,19 +18,19 @@ help:
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-messages:
+m messages:
 	@python manage.localy.py makemessages -l fa
 
-compile:
+c compile:
 	@python manage.localy.py compilemessages
 
-run:
+r run:
 	@python manage.localy.py runserver
 
-freeze:
+f freeze:
 	@pip freeze > requirement.txt
 
-migrate:
+mi migrate:
 	@python manage.localy.py migrate
 
 test:
