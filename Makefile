@@ -35,6 +35,7 @@ migrate:
 
 test:
 	@python manage.localy.py test
+	@python manage.pro.py test
 
 celery:
 	@celery -A cacke worker -l info
