@@ -1,4 +1,6 @@
+sudo: false
 language: python
+cache: pip
 
 services:
   - docker
@@ -7,13 +9,14 @@ matrix:
   include:
   - python: 3.5
     dist: xenial
+    env: PY3.5
   - python: 3.6
     dist: xenial
+    env: PY3.6
   allow_failures:
   - python: 3.4
     dist: xenial
-
-sudo: false
+    env: PY3.4
 
 install:
     - pip install -r requirement.txt
@@ -24,4 +27,4 @@ script:
 
 after_success:
     - coveralls
-    - docker build -t ah8ad3/cacke:latest
+    - docker build -t ah8ad3/cacke:latest .
