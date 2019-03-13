@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install -r requirement.txt && make migrate && make compile
+RUN apk add gettext
 
-CMD make run
+RUN pip install -r requirement.txt && python manage.localy.py migrate && python manage.localy.py compilemessages
+
+CMD python manage.localy.py runserver
