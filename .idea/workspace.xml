@@ -39,7 +39,7 @@
           <entry key="md" value="3" />
           <entry key="po" value="2" />
           <entry key="py" value="54" />
-          <entry key="rst" value="2" />
+          <entry key="rst" value="3" />
           <entry key="txt" value="6" />
           <entry key="yml" value="3" />
         </counts>
@@ -52,7 +52,7 @@
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Python" value="54" />
-          <entry key="ReST" value="2" />
+          <entry key="ReST" value="3" />
           <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
@@ -66,7 +66,7 @@
           <entry key="in" value="6" />
           <entry key="md" value="39" />
           <entry key="po" value="21" />
-          <entry key="py" value="1804" />
+          <entry key="py" value="1861" />
           <entry key="rst" value="505" />
           <entry key="yml" value="274" />
         </counts>
@@ -78,7 +78,7 @@
           <entry key="Locale" value="21" />
           <entry key="Markdown" value="39" />
           <entry key="PLAIN_TEXT" value="284" />
-          <entry key="Python" value="1804" />
+          <entry key="Python" value="1861" />
           <entry key="ReST" value="505" />
           <entry key="YAML" value="274" />
         </counts>
@@ -90,6 +90,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="restructured-text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cacke/settings/dev.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cacke/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="360">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -176,15 +181,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/common/tasks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -369,8 +365,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.2886873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.2886873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50147057" side_tool="true" weight="0.27267876" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -384,7 +381,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.50326085" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3195652" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -551,9 +548,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cacke/test.py" />
-    <entry file="file://$PROJECT_DIR$/README.rst">
-      <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -649,13 +643,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cacke/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
   </component>
 </project>

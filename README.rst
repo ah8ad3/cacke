@@ -19,8 +19,9 @@ Cacke document
 * added django rest framework
 * add localization for **fa** and **en**
 * support celery tasks
+* good test coverage
 
 TODO
 ----------------------
-* add some sample test
 * add mote usable library
+* django-filter, sms, email, ssl, mongodb, redis, cache
