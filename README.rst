@@ -23,5 +23,5 @@ Cacke document
 
 TODO
 ----------------------
-* add mote usable library
+* add more usable library
 * django-filter, sms, email, ssl, mongodb, redis, cache
