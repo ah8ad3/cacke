@@ -39,3 +39,7 @@ test:
 
 celery:
 	@celery -A cacke worker -l info
+
+coverage:
+	@coverage run --source='.' manage.localy.py test
+	@coverage report

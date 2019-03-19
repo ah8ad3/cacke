@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="877147e9-b2aa-4dcd-b495-7f28fe431c11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cacke/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/cacke/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cacke/settings/pro.py" beforeDir="false" afterPath="$PROJECT_DIR$/cacke/settings/pro.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
           <entry key="in" value="6" />
           <entry key="md" value="39" />
           <entry key="po" value="21" />
-          <entry key="py" value="1891" />
+          <entry key="py" value="1902" />
           <entry key="rst" value="589" />
           <entry key="yml" value="274" />
         </counts>
@@ -82,7 +80,7 @@
           <entry key="Locale" value="21" />
           <entry key="Markdown" value="39" />
           <entry key="PLAIN_TEXT" value="306" />
-          <entry key="Python" value="1891" />
+          <entry key="Python" value="1902" />
           <entry key="ReST" value="589" />
           <entry key="YAML" value="274" />
         </counts>
@@ -180,10 +178,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/common/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,7 +222,6 @@
         <option value="$PROJECT_DIR$/cacke/__init__.py" />
         <option value="$PROJECT_DIR$/cacke/settings/__init__.py" />
         <option value="$PROJECT_DIR$/cacke/settings/settings.py" />
-        <option value="$PROJECT_DIR$/apps/common/views.py" />
         <option value="$PROJECT_DIR$/MANIFEST.in" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/.travis.yml" />
@@ -239,6 +236,7 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/cacke/settings/pro.py" />
         <option value="$PROJECT_DIR$/cacke/settings/dev.py" />
+        <option value="$PROJECT_DIR$/apps/common/views.py" />
       </list>
     </option>
   </component>
@@ -248,7 +246,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="568" />
     <option name="y" value="25" />
     <option name="width" value="798" />
@@ -369,9 +367,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1920" height="1050" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.291889" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985294" visible="true" weight="0.291889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50147057" side_tool="true" weight="0.27267876" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -385,7 +382,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3195652" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3195652" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -654,10 +651,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/common/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

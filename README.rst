@@ -20,8 +20,9 @@ Cacke document
 * add localization for **fa** and **en**
 * support celery tasks
 * good test coverage
+* django cache
 
 TODO
 ----------------------
 * add more usable library
-* django-filter, sms, email, ssl, mongodb, redis, cache
+* django-filter, sms, email, ssl, mongodb, redis
